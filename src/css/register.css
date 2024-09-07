@@ -1,0 +1,65 @@
+.header{
+    text-align: center;
+    color: lightsalmon;
+}
+
+.form {
+    width: 300px;
+    background-color: lightsalmon;
+    padding: 30px;
+    color: #fff;
+}
+
+.formItemContainer{
+    margin-bottom: 20px;
+
+}
+
+.formContainer input {
+    color: #fff;
+}
+
+.formItemChildContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+
+
+.formItemChildContainer input{
+   width: 20px;
+}
+
+.formInput{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    background-color: lightsalmon;
+    color: #fff;
+    outline: none;
+}
+
+.registerFormButton{
+    border: none;
+    padding: 10px 25px;
+    color: lightsalmon;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border: 1px solid lightsalmon;
+    width: 100%;
+}
+
+.registerFormButton:hover{
+    color: #fff;
+    background-color: lightsalmon;
+    border: 1px solid #fff;
+}
+
+.errorText{
+    color: #fff;
+    font-size: 13px;
+}
